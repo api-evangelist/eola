@@ -1,7 +1,19 @@
 aid: eola
 name: eola
-description: eola is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  eola is a London-based online booking and business-management platform for the
+  activity and leisure industry. It gives tour operators, surf and watersports
+  schools, outdoor activity centres, adventure and winter-sports providers, course
+  and rental businesses, and multi-site operators a single system to sell
+  experiences and run their operations. The platform covers online and onsite
+  point-of-sale bookings, a product builder for activities, memberships, class
+  passes and rentals, instructor and resource scheduling, online waivers and
+  questionnaires with AI checking, payments and reconciliation, marketing tools
+  (discount codes, credit vouchers, review links, branded multi-language emails),
+  reporting and analytics, an activity marketplace, and eola AI features. eola is
+  backed by Techstars. It operates as a closed SaaS product: bookings are embedded
+  via a first-party booking widget and business dashboard rather than a documented
+  public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/eola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.builder.io/api/v1/image/assets%2F96a8cd086730462e8a11cf63b0a56c86%2F809aa982c6f2435e8ed06490b61642df
 tags:
 - Company
+- Booking
+- Reservations
+- Activities
+- Leisure
+- Experiences
+- Tours
+- Watersports
+- Payments
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,32 @@ maintainers:
 common:
 - type: Website
   url: https://eola.co/
+- type: Pricing
+  url: https://eola.co/business/pricing
+- type: Blog
+  url: https://eola.co/blog
+- type: TermsOfService
+  url: https://eola.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://eola.co/privacy-policy
+- type: Support
+  url: https://eola.co/business/contact
+- type: GettingStarted
+  name: eola Academy
+  url: https://eola.co/academy
+- type: SignUp
+  name: Request a demo
+  url: https://business.eola.co/page/request-a-demo
+- type: GitHubOrganization
+  url: https://github.com/eola
+- type: StatusPage
+  url: https://status.eola.co/
+- type: Lifecycle
+  url: lifecycle/eola-lifecycle.yml
+- type: DomainSecurity
+  url: security/eola-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

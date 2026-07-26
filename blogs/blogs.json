@@ -1,0 +1,14 @@
+{
+  "repo": "eola",
+  "feeds": [
+    {
+      "source": "https://eola.co/business/pricing",
+      "feed_url": "https://eola.co/business/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.eola.co/
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.eola.co/
+status_provider: Better Stack
+monitored_components:
+- name: eola.co
+  note: homepage / landing pages
+- name: Booking widget
+- name: Business dashboard
+- name: New business dashboard
+- name: GraphQL endpoint
+  note: used by the frontend to fetch data (internal, not a documented public API)
+deprecated_operations: []
+notes: >-
+  eola publishes a public Better Stack status page covering five components. No
+  public versioning or deprecation policy is documented; the platform exposes no
+  documented public developer API (the GraphQL endpoint listed on the status page
+  powers the first-party frontend/booking widget only).

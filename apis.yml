@@ -32,7 +32,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://cdn.builder.io/api/v1/image/assets%2F96a8cd086730462e8a11cf63b0a56c86%2F809aa982c6f2435e8ed06490b61642df
